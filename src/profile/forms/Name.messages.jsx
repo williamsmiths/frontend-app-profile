@@ -14,7 +14,7 @@ const messages = defineMessages({
   'profile.name.empty': {
     id: 'profile.name.empty',
     defaultMessage: 'Thêm tên',
-    description: "The affordance to add a name to a user's profile.",
+    description: 'The affordance to add a name to a user’s profile.',
   },
 });
 
