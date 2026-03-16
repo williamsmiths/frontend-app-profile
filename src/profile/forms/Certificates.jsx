@@ -96,7 +96,7 @@ class Certificates extends React.Component {
             <p className="small mb-2">
               <FormattedMessage
                 id="profile.certificate.completion.date.label"
-                defaultMessage="Completed on {date}"
+                defaultMessage="Hoàn thành vào {date}"
                 values={{
                   date: <FormattedDate value={new Date(modifiedDate)} />,
                 }}
@@ -118,7 +118,7 @@ class Certificates extends React.Component {
       return (
         <FormattedMessage
           id="profile.no.certificates"
-          defaultMessage="You don't have any certificates yet."
+          defaultMessage="Bạn chưa có chứng chỉ nào."
           description="displays when user has no course completion certificates"
         />
       );
